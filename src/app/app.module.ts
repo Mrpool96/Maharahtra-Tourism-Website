@@ -47,6 +47,8 @@ import { KarnalaWildlifeSanctuaryComponent } from './locations-categories/wildli
 import { ChikhaldharaWildlifeSanctuaryComponent } from './locations-categories/wildlife/location/chikhaldhara-wildlife-sanctuary/chikhaldhara-wildlife-sanctuary.component';
 import { SanjayGandhiWildlifeSanctuaryComponent } from './locations-categories/wildlife/location/sanjay-gandhi-wildlife-sanctuary/sanjay-gandhi-wildlife-sanctuary.component';
 
+import { HotelsReservationBeachesComponent } from './hotel-reservation/Locations/Beaches/hotels-reservation-beaches/hotels-reservation-beaches.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -91,7 +93,8 @@ import { SanjayGandhiWildlifeSanctuaryComponent } from './locations-categories/w
     KoynaWildlifeSanctuaryComponent,
     KarnalaWildlifeSanctuaryComponent,
     ChikhaldharaWildlifeSanctuaryComponent,
-    SanjayGandhiWildlifeSanctuaryComponent
+    SanjayGandhiWildlifeSanctuaryComponent,
+    HotelsReservationBeachesComponent
   ],
   imports: [
     BrowserModule,
@@ -131,6 +134,8 @@ import { SanjayGandhiWildlifeSanctuaryComponent } from './locations-categories/w
       {path:'murud',component:MurudComponent},
       {path:'alibagh',component:AlibaghComponent},
       {path:'harihareshwar',component:HarihareshwarComponent},
+        //hotels
+          {path:'hotel-reservation-murud',component:HotelsReservationBeachesComponent},
 
     {path:'hill-station',component:HillstationComponent},
     //Hill-Station Location

@@ -48,6 +48,10 @@ import { ChikhaldharaWildlifeSanctuaryComponent } from './locations-categories/w
 import { SanjayGandhiWildlifeSanctuaryComponent } from './locations-categories/wildlife/location/sanjay-gandhi-wildlife-sanctuary/sanjay-gandhi-wildlife-sanctuary.component';
 
 import { HotelsReservationBeachesComponent } from './hotel-reservation/Locations/Beaches/hotels-reservation-beaches/hotels-reservation-beaches.component';
+import { HotelReservationTarkarliComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-tarkarli/hotel-reservation-tarkarli.component';
+import { HotelReservationDapoliComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-dapoli/hotel-reservation-dapoli.component';
+import { HotelReservationAlibaghComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-alibagh/hotel-reservation-alibagh.component';
+import { HotelReservationHariharshwarComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-hariharshwar/hotel-reservation-hariharshwar.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +98,11 @@ import { HotelsReservationBeachesComponent } from './hotel-reservation/Locations
     KarnalaWildlifeSanctuaryComponent,
     ChikhaldharaWildlifeSanctuaryComponent,
     SanjayGandhiWildlifeSanctuaryComponent,
-    HotelsReservationBeachesComponent
+    HotelsReservationBeachesComponent,
+    HotelReservationTarkarliComponent,
+    HotelReservationDapoliComponent,
+    HotelReservationAlibaghComponent,
+    HotelReservationHariharshwarComponent
   ],
   imports: [
     BrowserModule,
@@ -136,6 +144,12 @@ import { HotelsReservationBeachesComponent } from './hotel-reservation/Locations
       {path:'harihareshwar',component:HarihareshwarComponent},
         //hotels
           {path:'hotel-reservation-murud',component:HotelsReservationBeachesComponent},
+          {path:'hotel-reservation-tarkarli',component:HotelReservationTarkarliComponent},
+          {path:'hotel-reservation-dapoli',component:HotelReservationDapoliComponent},
+          {path:'hotel-reservation-alibagh',component:HotelReservationAlibaghComponent},
+          {path:'hotel-reservation-harihareshwar',component:HotelReservationHariharshwarComponent},
+
+
 
     {path:'hill-station',component:HillstationComponent},
     //Hill-Station Location

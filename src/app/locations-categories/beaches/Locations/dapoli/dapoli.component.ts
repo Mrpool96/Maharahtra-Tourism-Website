@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dapoli.component.css']
 })
 export class DapoliComponent implements OnInit {
+  
 
   constructor() { }
 
   ngOnInit(): void {
+    
   }
-
 }

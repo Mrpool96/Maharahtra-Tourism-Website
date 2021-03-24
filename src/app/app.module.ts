@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -52,6 +51,7 @@ import { HotelReservationTarkarliComponent } from './hotel-reservation/Locations
 import { HotelReservationDapoliComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-dapoli/hotel-reservation-dapoli.component';
 import { HotelReservationAlibaghComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-alibagh/hotel-reservation-alibagh.component';
 import { HotelReservationHariharshwarComponent } from './hotel-reservation/Locations/Beaches/hotel-reservation-hariharshwar/hotel-reservation-hariharshwar.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
